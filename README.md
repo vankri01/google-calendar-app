@@ -55,6 +55,7 @@ This project demonstrates a practical use of Google APIs and OAuth authenticatio
    The app will be running on http://localhost:3000.
 6. **Access the app: Open your browser and go to http://localhost:3000. You can now authenticate with Google and view your calendar** **events.**
 ## PROJECT STRUCTURE
+```
 /whitecarrot-calendar
   ├── .env                  # Environment variables (Google OAuth credentials)
   ├── node_modules/          # Node.js modules
@@ -65,14 +66,22 @@ This project demonstrates a practical use of Google APIs and OAuth authenticatio
   ├── server.js              # Backend logic using Node.js and Express
   ├── package.json           # Project dependencies and scripts
   └── README.md              # This README file
+```
+## License
 
-## LICENSE
-This project is licensed under the MIT License - see the LICENSE file for details.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## Acknowledgements
-I. Google Calendar API: Used for retrieving calendar events.
-II. Passport.js: Used for implementing Google OAuth 2.0 authentication.
-III. Node.js: Backend framework for handling server-side logic.
-IV. Express.js: Minimalist web framework for building web applications with Node.js.
+I. Google Calendar API: Used for retrieving calendar events.  
+
+II. Passport.js: Used for implementing Google OAuth 2.0 authentication.  
+
+III. Node.js: Backend framework for handling server-side logic.  
+
+IV. Express.js: Minimalist web framework for building web applications with Node.js.  
+
 
 
