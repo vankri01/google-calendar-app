@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .cabin-sketch-bold {
+    font-family: "Cabin Sketch", serif;
+    font-weight: 10000;
+    font-style: normal;
+    font-size: 60px;
+  }
+  
+  
+  /* Container */
+  .container {
+    text-align: center;
+  }
+  
+  /* Heading Style */
+  h1 {
+    font-size: 2.5rem; /* Reduced heading size */
+    color: #6d6875;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', serif; /* Updated font */
+    opacity: 0;
+    animation: fadeIn 2s forwards 1s; /* Animation for fade in with delay */
+  }
+  
+  /* Calendar Container */
+  .calendar-container {
+    position: relative;
+    width: 80%; /* Adjusted size for better balance */
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Calendar Image */
+  .calendar-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.5s ease; /* Smooth hover effect */
+  }
+  
+  .calendar-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Sign-in Button Below the Calendar Image */
+  .google-signin-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; /* Add space between the calendar and the button */
+    opacity: 0;
+    animation: fadeIn 2s forwards 2s; /* Animation for fade in with delay */
+  }
+  
+  .google-signin-button:hover {
+    background-color: #357ae8;
+    transform: scale(1.1); /* Button enlarges slightly on hover */
+  }
+  
+  .google-logo {
+    width: 20px; /* Reduced logo size */
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  /* Animations for subtle elegance */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Adding Subtle Animation to Icons (if you add any in the future) */
+  .icon {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    opacity: 0;
+    animation: fadeIn 2s forwards 3s; /* Slight delay for icons */
+  }
+  
+  .icon:hover {
+    transform: rotate(20deg); /* Light rotation animation on hover */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Floating or Moving Elements */
+  .floating-element {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation: floatUp 4s ease-in-out infinite;
+  }
+  
+  @keyframes floatUp {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
