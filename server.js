@@ -16,7 +16,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 passport.use(new GoogleStrategy({
   clientID: process.env.GOOGLE_CLIENT_ID,
   clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-  callbackURL: "http://localhost:3000/auth/google/callback"
+  callbackURL: "https://google-calendar-app-carols-projects-a9b905e2.vercel.app/auth/google/callback"
+
 }, (token, tokenSecret, profile, done) => {
   return done(null, { profile, token });
 }));
