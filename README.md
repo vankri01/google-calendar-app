@@ -54,6 +54,9 @@ This project demonstrates a practical use of Google APIs and OAuth authenticatio
    node server.js
    The app will be running on http://localhost:3000.
 6. **Access the app: Open your browser and go to http://localhost:3000. You can now authenticate with Google and view your calendar** **events.**
+
+![Screenshot](./calendarApp.png)
+
 ## PROJECT STRUCTURE
 ```
 /whitecarrot-calendar
